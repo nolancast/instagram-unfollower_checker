@@ -1,19 +1,26 @@
 body {
-    background: #f2f2f2;
+    background: #141415;
     font-family: Arial, sans-serif;
+    color: white
 }
 
 .container {
-    max-width: 600px;
-    background: white;
+    max-width: 800px;
+    background: #28292A;
     margin: 50px auto;
-    padding: 25px;
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #232585;
 }
 
-h1, h2 {
+h1{
     text-align: center;
+    color: #8587ff;
+    font-size: 3em;
+} 
+h2 {
+    text-align: center;
+    color: white;
 }
 
 input, button {
@@ -23,19 +30,26 @@ input, button {
 }
 
 button {
-    background: #3897f0;
+    background: #2A2b9e;
     color: white;
     border: none;
     border-radius: 5px;
+    font-size: large;
+
 }
 
 button:hover {
-    background: #2c7be5;
+    background: #232585;
 }
 
 li {
-    background: #eee;
+    background: #28292A;
     margin: 5px 0;
     padding: 8px;
     border-radius: 4px;
+}
+ol {
+    padding-left: 20px;
+    color: white;
+    background: #28292A;
 }
